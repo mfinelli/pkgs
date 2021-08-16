@@ -7,7 +7,7 @@ ansible-galaxy install -r requirements.yml
 ```
 
 ```shell
-ansible-playbook -i hosts site.yml
+ansible-playbook -i hosts --vault-password-file ./vault site.yml
 ```
 
 ## bootstrap
