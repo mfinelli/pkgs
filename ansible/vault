@@ -1,0 +1,24 @@
+#!/bin/bash -e
+
+# if no arguments then return the vault secret
+# else encrypt a new secret
+
+if [[ $# -eq 0 ]]; then
+  if [[ ! -f vault.asc ]]; then
+    echo >&2 "error: unable to find vault.asc!"
+    exit 1
+  fi
+
+  gpg --batch --quiet --decrypt vault.asc
+  exit 0
+fi
+
+if [[ $# -eq 1 && -f $1 ]]; then
+  ansible-vault encrypt --vault-password-file ./vault "$1"
+elif [[ $# -eq 2 ]]; then
+  ansible-vault encrypt_string --vault-password-file ./vault  --name "$1" "$2"
+else
+  echo >&2 "usage: $(basename "$0") ./to/file OR key value"
+fi
+
+exit 0
