@@ -5,6 +5,18 @@
       - apache2
       - ssl-cert
 
+- name: enable apache mod_ssl
+  ansible.builtin.file:
+    dest: /etc/apache2/mods-enabled/{{ item }}
+    src: /etc/apache2/mods-available/{{ item }}
+    state: link
+  loop:
+    - ssl.conf
+    - ssl.load
+    - socache_shmcb.load
+  notify:
+    - restart apache
+
 - name: copy cloudflare origin certificate
   ansible.builtin.copy:
     dest: /etc/ssl/private/pkgs.finelli.dev.{{ item }}
