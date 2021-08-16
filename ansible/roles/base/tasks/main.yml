@@ -1,0 +1,21 @@
+---
+- name: install rsync
+  ansible.builtin.apt: name=rsync
+
+- name: create mario user
+  ansible.builtin.user: name=mario
+
+- name: set ssh key for mario
+  ansible.posix.authorized_key:
+    exclusive: yes
+    user: mario
+    key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFk83S5KYE7ErNJW7JEJbTkwTz1WtcNrOCoZ9hMnwBQT mario
+
+- name: add mario to sudoers
+  ansible.builtin.copy:
+    dest: /etc/sudoers.d/mario
+    group: root
+    mode: 0440
+    owner: root
+    src: sudoer
+    validate: visudo -cf %s
