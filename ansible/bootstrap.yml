@@ -5,3 +5,4 @@
     ansible_python_interpreter: auto
   roles:
     - base
+    - ssh

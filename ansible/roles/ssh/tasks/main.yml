@@ -1,0 +1,14 @@
+---
+- name: install sshd config
+  ansible.builtin.copy:
+    dest: /etc/ssh/sshd_config
+    src: sshd_config
+    owner: root
+    group: root
+    mode: 0644
+    validate: /usr/sbin/sshd -tf %s
+  notify:
+    - restart sshd
+
+- name: ensure sshd is running and enabled
+  ansible.builtin.systemd: name=ssh.service state=started enabled=yes
