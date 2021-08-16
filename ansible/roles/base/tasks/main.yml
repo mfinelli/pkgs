@@ -3,7 +3,7 @@
   ansible.builtin.apt: name=rsync
 
 - name: create mario user
-  ansible.builtin.user: name=mario
+  ansible.builtin.user: name=mario shell=/bin/bash
 
 - name: set ssh key for mario
   ansible.posix.authorized_key:
