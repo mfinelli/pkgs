@@ -42,6 +42,17 @@
     mode: 0755 # ...and then 0775
     state: directory
 
+- name: create package directory
+  ansible.builtin.file:
+    path: /srv/pkgs.finelli.dev/{{ item }}
+    owner: mario
+    group: mario
+    mode: 0755
+    state: directory
+  loop:
+    - arch
+    - arch/x86_64
+
 - name: copy virtual host config
   ansible.builtin.copy:
     src: vhost.conf
