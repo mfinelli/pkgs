@@ -1,0 +1,6 @@
+*.log
+*.tar.gz*
+*.tar.zst*
+supermario.db*
+supermario.files*
+*.gem
