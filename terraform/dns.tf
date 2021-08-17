@@ -23,3 +23,16 @@ resource "vultr_dns_record" "dmarc" {
   type   = "TXT"
 }
 
+resource "vultr_dns_record" "rome_a" {
+  domain = vultr_dns_domain.mfpkgnet.id
+  name   = "rome"
+  data   = vultr_instance.rome.main_ip
+  type   = "A"
+}
+
+resource "vultr_dns_record" "rome_aaaa" {
+  domain = vultr_dns_domain.mfpkgnet.id
+  name   = "rome"
+  data   = vultr_instance.rome.v6_main_ip
+  type   = "AAAA"
+}
