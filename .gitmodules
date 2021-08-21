@@ -1,0 +1,24 @@
+[submodule "pkgs/ruby-activemodel"]
+	path = pkgs/ruby-activemodel
+	url = https://aur.archlinux.org/ruby-activemodel.git
+[submodule "pkgs/ruby-activerecord"]
+	path = pkgs/ruby-activerecord
+	url = https://aur.archlinux.org/ruby-activerecord.git
+[submodule "pkgs/ruby-ansi"]
+	path = pkgs/ruby-ansi
+	url = https://aur.archlinux.org/ruby-ansi.git
+[submodule "pkgs/ruby-ast"]
+	path = pkgs/ruby-ast
+	url = https://aur.archlinux.org/ruby-ast.git
+[submodule "pkgs/ruby-method_source"]
+	path = pkgs/ruby-method_source
+	url = https://aur.archlinux.org/ruby-method_source.git
+[submodule "pkgs/ruby-mysql2"]
+	path = pkgs/ruby-mysql2
+	url = https://aur.archlinux.org/ruby-mysql2.git
+[submodule "pkgs/ruby-rubocop-rspec"]
+	path = pkgs/ruby-rubocop-rspec
+	url = https://aur.archlinux.org/ruby-rubocop-rspec.git
+[submodule "pkgs/ruby-unicode-display_width"]
+	path = pkgs/ruby-unicode-display_width
+	url = https://aur.archlinux.org/ruby-unicode-display_width.git
