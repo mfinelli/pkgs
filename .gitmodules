@@ -133,3 +133,6 @@
 [submodule "pkgs/xfce-theme-manager"]
 	path = pkgs/xfce-theme-manager
 	url = https://aur.archlinux.org/xfce-theme-manager.git
+[submodule "pkgs/ansible-aur"]
+	path = pkgs/ansible-aur
+	url = https://aur.archlinux.org/ansible-aur.git
