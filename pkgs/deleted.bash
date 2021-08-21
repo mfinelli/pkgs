@@ -18,18 +18,14 @@ fi
 
 queryurl="$AURBASE"
 for package in $(ls); do
-  [[ $package == README.md ]] && continue
-  [[ $package == deleted.bash ]] && continue
-  [[ $package == orphans.bash ]] && continue
+  [[ ! -d $package ]] && continue
   queryurl="${queryurl}&arg[]=${package}"
 done
 
 results="$(curl -s "$queryurl" | jq -r '.results[] | .Name')"
 
 for package in $(ls); do
-  [[ $package == README.md ]] && continue
-  [[ $package == deleted.bash ]] && continue
-  [[ $package == orphans.bash ]] && continue
+  [[ ! -d $package ]] && continue
 
   if ! grep -q "^${package}$" <<< "$results"; then
     echo "$package"
