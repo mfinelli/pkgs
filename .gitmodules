@@ -139,3 +139,9 @@
 [submodule "pkgs/go-yq"]
 	path = pkgs/go-yq
 	url = https://aur.archlinux.org/go-yq.git
+[submodule "pkgs/ansible-gpg-key-git"]
+	path = pkgs/ansible-gpg-key-git
+	url = https://aur.archlinux.org/ansible-gpg-key-git.git
+[submodule "pkgs/ansible-gsetting-git"]
+	path = pkgs/ansible-gsetting-git
+	url = https://aur.archlinux.org/ansible-gsetting-git.git
