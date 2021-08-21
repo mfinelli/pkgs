@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
-# check for orphaned packages
-# based on: https://gist.github.com/mfinelli/8dcbaf3e6fb1e7cee9990aee7be631c9
-# usage: ./orphans.bash
+# checks for packages that are no longer on the AUR (maybe they were moved to
+# [community])
+# usage: ./deleted.bash
 
 if [[ $# -ne 0 ]]; then
   echo >&2 "usage: $(basename "$0")"
@@ -24,6 +24,16 @@ for package in $(ls); do
   queryurl="${queryurl}&arg[]=${package}"
 done
 
-curl -s "$queryurl" | jq -r '.results[] | select(.Maintainer == null) | .Name'
+results="$(curl -s "$queryurl" | jq -r '.results[] | .Name')"
+
+for package in $(ls); do
+  [[ $package == README.md ]] && continue
+  [[ $package == deleted.bash ]] && continue
+  [[ $package == orphans.bash ]] && continue
+
+  if ! grep -q "^${package}$" <<< "$results"; then
+    echo "$package"
+  fi
+done
 
 exit 0
