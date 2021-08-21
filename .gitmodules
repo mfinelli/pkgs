@@ -163,6 +163,3 @@
 [submodule "pkgs/ruby-ruby_engine"]
 	path = pkgs/ruby-ruby_engine
 	url = https://aur.archlinux.org/ruby-ruby_engine.git
-[submodule "pkgs/ruby-rspec-pending_for"]
-	path = pkgs/ruby-rspec-pending_for
-	url = https://aur.archlinux.org/ruby-rspec-pending_for
