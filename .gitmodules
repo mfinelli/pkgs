@@ -154,3 +154,15 @@
 [submodule "pkgs/ruby-install"]
 	path = pkgs/ruby-install
 	url = https://aur.archlinux.org/ruby-install.git
+[submodule "pkgs/ruby-hashie"]
+	path = pkgs/ruby-hashie
+	url = https://aur.archlinux.org/ruby-hashie.git
+[submodule "pkgs/ruby-ruby_version"]
+	path = pkgs/ruby-ruby_version
+	url = https://aur.archlinux.org/ruby-ruby_version.git
+[submodule "pkgs/ruby-ruby_engine"]
+	path = pkgs/ruby-ruby_engine
+	url = https://aur.archlinux.org/ruby-ruby_engine.git
+[submodule "pkgs/ruby-rspec-pending_for"]
+	path = pkgs/ruby-rspec-pending_for
+	url = https://aur.archlinux.org/ruby-rspec-pending_for
