@@ -145,3 +145,12 @@
 [submodule "pkgs/ansible-gsetting-git"]
 	path = pkgs/ansible-gsetting-git
 	url = https://aur.archlinux.org/ansible-gsetting-git.git
+[submodule "pkgs/nodejs-n"]
+	path = pkgs/nodejs-n
+	url = https://aur.archlinux.org/nodejs-n.git
+[submodule "pkgs/chruby"]
+	path = pkgs/chruby
+	url = https://aur.archlinux.org/chruby.git
+[submodule "pkgs/ruby-install"]
+	path = pkgs/ruby-install
+	url = https://aur.archlinux.org/ruby-install.git
