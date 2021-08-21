@@ -136,3 +136,6 @@
 [submodule "pkgs/ansible-aur"]
 	path = pkgs/ansible-aur
 	url = https://aur.archlinux.org/ansible-aur.git
+[submodule "pkgs/go-yq"]
+	path = pkgs/go-yq
+	url = https://aur.archlinux.org/go-yq.git
