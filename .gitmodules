@@ -22,3 +22,114 @@
 [submodule "pkgs/ruby-unicode-display_width"]
 	path = pkgs/ruby-unicode-display_width
 	url = https://aur.archlinux.org/ruby-unicode-display_width.git
+[submodule "pkgs/adminer"]
+	path = pkgs/adminer
+	url = https://aur.archlinux.org/adminer.git
+[submodule "pkgs/helm-gcs"]
+	path = pkgs/helm-gcs
+	url = https://aur.archlinux.org/helm-gcs.git
+[submodule "pkgs/helm-secrets"]
+	path = pkgs/helm-secrets
+	url = https://aur.archlinux.org/helm-secrets.git
+[submodule "pkgs/keymapper"]
+	path = pkgs/keymapper
+	url = https://aur.archlinux.org/keymapper.git
+[submodule "pkgs/newrelic-cli"]
+	path = pkgs/newrelic-cli
+	url = https://aur.archlinux.org/newrelic-cli.git
+[submodule "pkgs/nodejs-autoprefixer"]
+	path = pkgs/nodejs-autoprefixer
+	url = https://aur.archlinux.org/nodejs-autoprefixer.git
+[submodule "pkgs/nodejs-clean-css-cli"]
+	path = pkgs/nodejs-clean-css-cli
+	url = https://aur.archlinux.org/nodejs-clean-css-cli.git
+[submodule "pkgs/nodejs-mjml"]
+	path = pkgs/nodejs-mjml
+	url = https://aur.archlinux.org/nodejs-mjml.git
+[submodule "pkgs/nodejs-pug-cli"]
+	path = pkgs/nodejs-pug-cli
+	url = https://aur.archlinux.org/nodejs-pug-cli.git
+[submodule "pkgs/redli"]
+	path = pkgs/redli
+	url = https://aur.archlinux.org/redli.git
+[submodule "pkgs/ruby-benchmark-ips"]
+	path = pkgs/ruby-benchmark-ips
+	url = https://aur.archlinux.org/ruby-benchmark-ips.git
+[submodule "pkgs/ruby-bump"]
+	path = pkgs/ruby-bump
+	url = https://aur.archlinux.org/ruby-bump.git
+[submodule "pkgs/ruby-cliver"]
+	path = pkgs/ruby-cliver
+	url = https://aur.archlinux.org/ruby-cliver.git
+[submodule "pkgs/ruby-coderay"]
+	path = pkgs/ruby-coderay
+	url = https://aur.archlinux.org/ruby-coderay.git
+[submodule "pkgs/ruby-digest-crc"]
+	path = pkgs/ruby-digest-crc
+	url = https://aur.archlinux.org/ruby-digest-crc.git
+[submodule "pkgs/ruby-fuubar"]
+	path = pkgs/ruby-fuubar
+	url = https://aur.archlinux.org/ruby-fuubar.git
+[submodule "pkgs/ruby-ice_nine"]
+	path = pkgs/ruby-ice_nine
+	url = https://aur.archlinux.org/ruby-ice_nine.git
+[submodule "pkgs/ruby-oedipus_lex"]
+	path = pkgs/ruby-oedipus_lex
+	url = https://aur.archlinux.org/ruby-oedipus_lex.git
+[submodule "pkgs/ruby-oj"]
+	path = pkgs/ruby-oj
+	url = https://aur.archlinux.org/ruby-oj.git
+[submodule "pkgs/ruby-parallel"]
+	path = pkgs/ruby-parallel
+	url = https://aur.archlinux.org/ruby-parallel.git
+[submodule "pkgs/ruby-parser"]
+	path = pkgs/ruby-parser
+	url = https://aur.archlinux.org/ruby-parser.git
+[submodule "pkgs/ruby-powerpack"]
+	path = pkgs/ruby-powerpack
+	url = https://aur.archlinux.org/ruby-powerpack.git
+[submodule "pkgs/ruby-pry"]
+	path = pkgs/ruby-pry
+	url = https://aur.archlinux.org/ruby-pry.git
+[submodule "pkgs/ruby-racc"]
+	path = pkgs/ruby-racc
+	url = https://aur.archlinux.org/ruby-racc.git
+[submodule "pkgs/ruby-regexp_parser"]
+	path = pkgs/ruby-regexp_parser
+	url = https://aur.archlinux.org/ruby-regexp_parser.git
+[submodule "pkgs/ruby-regexp_property_values"]
+	path = pkgs/ruby-regexp_property_values
+	url = https://aur.archlinux.org/ruby-regexp_property_values.git
+[submodule "pkgs/ruby-rspectacular"]
+	path = pkgs/ruby-rspectacular
+	url = https://aur.archlinux.org/ruby-rspectacular.git
+[submodule "pkgs/ruby-rubocop"]
+	path = pkgs/ruby-rubocop
+	url = https://aur.archlinux.org/ruby-rubocop.git
+[submodule "pkgs/ruby-rubocop-ast"]
+	path = pkgs/ruby-rubocop-ast
+	url = https://aur.archlinux.org/ruby-rubocop-ast.git
+[submodule "pkgs/ruby-rubocop-performance"]
+	path = pkgs/ruby-rubocop-performance
+	url = https://aur.archlinux.org/ruby-rubocop-performance.git
+[submodule "pkgs/ruby-rubocop-rails"]
+	path = pkgs/ruby-rubocop-rails
+	url = https://aur.archlinux.org/ruby-rubocop-rails.git
+[submodule "pkgs/ruby-rubocop-rake"]
+	path = pkgs/ruby-rubocop-rake
+	url = https://aur.archlinux.org/ruby-rubocop-rake.git
+[submodule "pkgs/ruby-ruby-progressbar"]
+	path = pkgs/ruby-ruby-progressbar
+	url = https://aur.archlinux.org/ruby-ruby-progressbar.git
+[submodule "pkgs/ruby-rubygems-tasks"]
+	path = pkgs/ruby-rubygems-tasks
+	url = https://aur.archlinux.org/ruby-rubygems-tasks.git
+[submodule "pkgs/ruby-test-queue"]
+	path = pkgs/ruby-test-queue
+	url = https://aur.archlinux.org/ruby-test-queue.git
+[submodule "pkgs/ruby-timecop"]
+	path = pkgs/ruby-timecop
+	url = https://aur.archlinux.org/ruby-timecop.git
+[submodule "pkgs/xfce-theme-manager"]
+	path = pkgs/xfce-theme-manager
+	url = https://aur.archlinux.org/xfce-theme-manager.git
