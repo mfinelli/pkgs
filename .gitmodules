@@ -166,3 +166,15 @@
 [submodule "pkgs/ruby-rspec-pending_for"]
 	path = pkgs/ruby-rspec-pending_for
 	url = https://aur.archlinux.org/ruby-rspec-pending_for.git
+[submodule "pkgs/ruby-slim"]
+	path = pkgs/ruby-slim
+	url = https://aur.archlinux.org/ruby-slim.git
+[submodule "pkgs/ruby-haml"]
+	path = pkgs/ruby-haml
+	url = https://aur.archlinux.org/ruby-haml.git
+[submodule "pkgs/ruby-temple"]
+	path = pkgs/ruby-temple
+	url = https://aur.archlinux.org/ruby-temple.git
+[submodule "pkgs/ruby-erubis"]
+	path = pkgs/ruby-erubis
+	url = https://aur.archlinux.org/ruby-erubis.git
