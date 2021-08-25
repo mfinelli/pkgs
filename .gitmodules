@@ -181,3 +181,6 @@
 [submodule "pkgs/ttfautohint"]
 	path = pkgs/ttfautohint
 	url = https://aur.archlinux.org/ttfautohint.git
+[submodule "pkgs/pkger"]
+	path = pkgs/pkger
+	url = https://aur.archlinux.org/pkger.git
