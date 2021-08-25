@@ -11,8 +11,9 @@ fi
 for package in $(ls); do
   [[ ! -d $package ]] && continue
 
+  echo "checking: $package"
   cd "$package"
-  git clean -fdx
+  git clean -fqdx
   git fetch
   git pull
   cd ../
