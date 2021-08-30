@@ -184,3 +184,6 @@
 [submodule "pkgs/pkger"]
 	path = pkgs/pkger
 	url = https://aur.archlinux.org/pkger.git
+[submodule "pkgs/google-cloud-sdk"]
+	path = pkgs/google-cloud-sdk
+	url = https://aur.archlinux.org/google-cloud-sdk.git
