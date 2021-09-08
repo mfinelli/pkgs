@@ -29,6 +29,6 @@ gpg -b "$1"
 
 repo-add ${VERIFY} --sign supermario.db.tar.gz "$1"
 
-rsync -lrvtP supermario.db* supermario.files* ${1}{,.sig} ${SERVER}:${FPATH}
+rsync -lrvtP supermario.db* supermario.files* ./${1}{,.sig} ${SERVER}:${FPATH}
 
 exit 0
