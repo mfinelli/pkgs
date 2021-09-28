@@ -193,3 +193,6 @@
 [submodule "pkgs/ruby-erubi"]
 	path = pkgs/ruby-erubi
 	url = https://aur.archlinux.org/ruby-erubi.git
+[submodule "pkgs/sysz"]
+	path = pkgs/sysz
+	url = https://aur.archlinux.org/sysz.git
