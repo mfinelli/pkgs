@@ -196,3 +196,6 @@
 [submodule "pkgs/sysz"]
 	path = pkgs/sysz
 	url = https://aur.archlinux.org/sysz.git
+[submodule "pkgs/ruby-bcrypt"]
+	path = pkgs/ruby-bcrypt
+	url = https://aur.archlinux.org/ruby-bcrypt.git
