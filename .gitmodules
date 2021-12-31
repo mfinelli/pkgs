@@ -208,3 +208,9 @@
 [submodule "pkgs/ruby-git"]
 	path = pkgs/ruby-git
 	url = https://aur.archlinux.org/ruby-git.git
+[submodule "pkgs/helm-diff"]
+	path = pkgs/helm-diff
+	url = https://aur.archlinux.org/helm-diff.git
+[submodule "pkgs/helm-s3"]
+	path = pkgs/helm-s3
+	url = https://aur.archlinux.org/helm-s3.git
