@@ -199,3 +199,12 @@
 [submodule "pkgs/ruby-bcrypt"]
 	path = pkgs/ruby-bcrypt
 	url = https://aur.archlinux.org/ruby-bcrypt.git
+[submodule "pkgs/pluto"]
+	path = pkgs/pluto
+	url = https://aur.archlinux.org/pluto.git
+[submodule "pkgs/ruby-rchardet"]
+	path = pkgs/ruby-rchardet
+	url = https://aur.archlinux.org/ruby-rchardet.git
+[submodule "pkgs/ruby-git"]
+	path = pkgs/ruby-git
+	url = https://aur.archlinux.org/ruby-git.git
