@@ -214,3 +214,6 @@
 [submodule "pkgs/helm-s3"]
 	path = pkgs/helm-s3
 	url = https://aur.archlinux.org/helm-s3.git
+[submodule "pkgs/cargo-about"]
+	path = pkgs/cargo-about
+	url = https://aur.archlinux.org/cargo-about.git
