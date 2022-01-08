@@ -220,3 +220,6 @@
 [submodule "pkgs/ruby-http-form_data"]
 	path = pkgs/ruby-http-form_data
 	url = https://aur.archlinux.org/ruby-http-form_data.git
+[submodule "pkgs/rpi-imager"]
+	path = pkgs/rpi-imager
+	url = https://aur.archlinux.org/rpi-imager.git
