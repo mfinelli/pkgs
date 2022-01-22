@@ -39,7 +39,7 @@ resource "vultr_reverse_ipv4" "rome" {
   reverse     = vultr_instance.rome.hostname
 }
 
-resource "vultr_reverse_ipv6" "my_reverse_ipv6" {
+resource "vultr_reverse_ipv6" "rome" {
   instance_id = vultr_instance.rome.id
   ip          = vultr_instance.rome.v6_main_ip
   reverse     = vultr_instance.rome.hostname
