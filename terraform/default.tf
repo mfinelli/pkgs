@@ -1,8 +1,8 @@
-data "vultr_os" "debian_buster" {
+data "vultr_os" "debian_bullseye" {
   filter {
     name = "name"
     # curl -H 'Accept: application/json' https://api.vultr.com/v1/os/list
-    values = ["Debian 10 x64 (buster)"]
+    values = ["Debian 11 x64 (bullseye)"]
   }
 }
 
@@ -23,7 +23,7 @@ resource "vultr_instance" "rome" {
   label               = "rome.mfpkg.net"
   plan                = "vc2-1c-1gb"
   region              = data.vultr_region.paris.id
-  os_id               = data.vultr_os.debian_buster.id
+  os_id               = data.vultr_os.debian_bullseye.id
   firewall_group_id   = vultr_firewall_group.firewall.id
   ssh_key_ids         = [vultr_ssh_key.mario.id]
   private_network_ids = []         # disable private network
