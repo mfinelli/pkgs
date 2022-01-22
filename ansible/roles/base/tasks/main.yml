@@ -2,6 +2,13 @@
 - name: install rsync
   ansible.builtin.apt: name=rsync
 
+- name: install other software
+  ansible.builtin.apt:
+    name:
+      - htop
+      - screen
+      - vim
+
 - name: create mario user
   ansible.builtin.user: name=mario shell=/bin/bash
 
