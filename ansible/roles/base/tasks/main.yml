@@ -1,4 +1,7 @@
 ---
+- name: ensure hostname is set to fqdn
+  ansible.builtin.hostname: name={{ ansible_fqdn }}
+
 - name: install rsync
   ansible.builtin.apt: name=rsync
 
