@@ -5,8 +5,11 @@
 - name: install rsync
   ansible.builtin.apt: name=rsync
 
-- name: install git
-  ansible.builtin.apt: name=git
+- name: install software for dotfiles
+  ansible.builtin.apt:
+    name:
+      - ansible
+      - git
 
 - name: install other software
   ansible.builtin.apt:
