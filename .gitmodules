@@ -10,9 +10,6 @@
 [submodule "pkgs/ruby-ast"]
 	path = pkgs/ruby-ast
 	url = https://aur.archlinux.org/ruby-ast.git
-[submodule "pkgs/ruby-method_source"]
-	path = pkgs/ruby-method_source
-	url = https://aur.archlinux.org/ruby-method_source.git
 [submodule "pkgs/ruby-mysql2"]
 	path = pkgs/ruby-mysql2
 	url = https://aur.archlinux.org/ruby-mysql2.git
