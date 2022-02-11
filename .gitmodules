@@ -220,3 +220,6 @@
 [submodule "pkgs/tor-browser"]
 	path = pkgs/tor-browser
 	url = https://aur.archlinux.org/tor-browser.git
+[submodule "pkgs/gitstatus"]
+	path = pkgs/gitstatus
+	url = https://aur.archlinux.org/gitstatus.git
