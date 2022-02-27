@@ -4,7 +4,7 @@
 # usage: ./publish.bash ./package.tar.zst
 
 if [[ $# -ne 1 ]]; then
-  echo >&2 "usage: $(basename "$0") ./package.tat.zst"
+  echo >&2 "usage: $(basename "$0") ./package.tar.zst"
   exit 1
 fi
 
@@ -25,9 +25,9 @@ else
   VERIFY=""
 fi
 
-gpg -b "$1"
+gpg -u 36FDA306 -b "$1"
 
-repo-add ${VERIFY} --sign supermario.db.tar.gz "$1"
+repo-add ${VERIFY} --key 36FDA306 --sign supermario.db.tar.gz "$1"
 
 rsync -lrvtP supermario.db* supermario.files* ./${1}{,.sig} ${SERVER}:${FPATH}
 
