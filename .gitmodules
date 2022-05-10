@@ -235,3 +235,6 @@
 [submodule "pkgs/asdf-vm"]
 	path = pkgs/asdf-vm
 	url = https://aur.archlinux.org/asdf-vm.git
+[submodule "pkgs/lens"]
+	path = pkgs/lens
+	url = https://aur.archlinux.org/lens.git
