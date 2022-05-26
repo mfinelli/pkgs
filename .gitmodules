@@ -238,3 +238,9 @@
 [submodule "pkgs/lens"]
 	path = pkgs/lens
 	url = https://aur.archlinux.org/lens.git
+[submodule "pkgs/cobra-cli"]
+	path = pkgs/cobra-cli
+	url = https://aur.archlinux.org/cobra-cli.git
+[submodule "pkgs/gallery-dl"]
+	path = pkgs/gallery-dl
+	url = https://aur.archlinux.org/gallery-dl.git
