@@ -1,4 +1,7 @@
 ---
+- name: install uuidgen
+  ansible.builtin.apt: name=uuid-runtime
+
 - name: add the netdata signing key
   ansible.builtin.apt_key:
     url: https://packagecloud.io/netdata/netdata/gpgkey
@@ -24,3 +27,19 @@
 
 - name: ensure netdata is started and enabled
   ansible.builtin.systemd: name=netdata.service state=started enabled=true
+
+- name: get running agent information
+  ansible.builtin.command: netdatacli aclk-state json
+  register: netdata_agent_info
+  changed_when: netdata_agent_info.rc != 0
+  failed_when: netdata_agent_info.rc != 0
+
+- name: set claimed status
+  ansible.builtin.set_fact:
+    netdata_agent_is_claimed: "{{ netdata_agent_info.stdout | from_json | json_query('\"agent-claimed\"') }}"
+
+- name: claim node if it's unclaimed
+  when: not netdata_agent_is_claimed
+  ansible.builtin.command: netdata-claim.sh -token="{{ netdata_claim_token }}"
+  notify:
+    - restart netdata
