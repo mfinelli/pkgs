@@ -1,0 +1,26 @@
+---
+- name: add the netdata signing key
+  ansible.builtin.apt_key:
+    url: https://packagecloud.io/netdata/netdata/gpgkey
+    keyring: /usr/share/keyrings/netdata-archive-keyring.gpg
+
+- name: add netdata repository
+  ansible.builtin.apt_repository:
+    repo: >
+      deb [signed-by=/usr/share/keyrings/netdata-archive-keyring.gpg]
+      https://packagecloud.io/netdata/netdata/debian {{ ansible_distribution_release }} main
+    filename: netdata
+    update_cache: true
+
+- name: install netdata
+  ansible.builtin.apt: name=netdata
+
+- name: opt out of analytics
+  ansible.builtin.command:
+    cmd: touch /etc/netdata/.opt-out-from-anonymous-statistics
+    creates: /etc/netdata/.opt-out-from-anonymous-statistics
+  notify:
+    - restart netdata
+
+- name: ensure netdata is started and enabled
+  ansible.builtin.systemd: name=netdata.service state=started enabled=true
