@@ -14,7 +14,7 @@
   community.general.ufw: rule=allow port=22 proto=tcp
 
 - name: disallow udp on port 22 enabled by default
-  community.general.ufw: rule=allow port=22 proto=udp delete=yes
+  community.general.ufw: rule=allow port=22 proto=udp delete=true
 
 - name: ensure sshd is running and enabled
-  ansible.builtin.systemd: name=ssh.service state=started enabled=yes
+  ansible.builtin.systemd: name=ssh.service state=started enabled=true

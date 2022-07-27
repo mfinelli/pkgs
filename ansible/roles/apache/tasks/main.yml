@@ -88,4 +88,4 @@
     state: link
 
 - name: ensure apache is running and enabled
-  ansible.builtin.systemd: name=apache2.service state=started enabled=yes
+  ansible.builtin.systemd: name=apache2.service state=started enabled=true

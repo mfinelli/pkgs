@@ -23,7 +23,7 @@
 
 - name: set ssh key for mario
   ansible.posix.authorized_key:
-    exclusive: yes
+    exclusive: true
     user: mario
     key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFk83S5KYE7ErNJW7JEJbTkwTz1WtcNrOCoZ9hMnwBQT mario
 
