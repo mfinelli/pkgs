@@ -244,3 +244,6 @@
 [submodule "pkgs/gallery-dl"]
 	path = pkgs/gallery-dl
 	url = https://aur.archlinux.org/gallery-dl.git
+[submodule "pkgs/goose"]
+	path = pkgs/goose
+	url = https://aur.archlinux.org/goose.git
