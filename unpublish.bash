@@ -23,7 +23,7 @@ cd "$wdir"
 rsync -lrvtP "${SERVER}:${FPATH}/supermario.db*" \
   "${SERVER}:${FPATH}/supermario.files*" .
 
-repo-remove --verify --sign supermario.db.tar.gz "$1"
+repo-remove --verify --key 36FDA306 --sign supermario.db.tar.gz "$1"
 
 rsync -lrvtP supermario.db* supermario.files* ${SERVER}:${FPATH}
 
