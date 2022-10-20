@@ -16,9 +16,6 @@
 [submodule "pkgs/ruby-rubocop-rspec"]
 	path = pkgs/ruby-rubocop-rspec
 	url = https://aur.archlinux.org/ruby-rubocop-rspec.git
-[submodule "pkgs/ruby-unicode-display_width"]
-	path = pkgs/ruby-unicode-display_width
-	url = https://aur.archlinux.org/ruby-unicode-display_width.git
 [submodule "pkgs/adminer"]
 	path = pkgs/adminer
 	url = https://aur.archlinux.org/adminer.git
@@ -49,9 +46,6 @@
 [submodule "pkgs/redli"]
 	path = pkgs/redli
 	url = https://aur.archlinux.org/redli.git
-[submodule "pkgs/ruby-benchmark-ips"]
-	path = pkgs/ruby-benchmark-ips
-	url = https://aur.archlinux.org/ruby-benchmark-ips.git
 [submodule "pkgs/ruby-bump"]
 	path = pkgs/ruby-bump
 	url = https://aur.archlinux.org/ruby-bump.git
@@ -67,18 +61,12 @@
 [submodule "pkgs/ruby-fuubar"]
 	path = pkgs/ruby-fuubar
 	url = https://aur.archlinux.org/ruby-fuubar.git
-[submodule "pkgs/ruby-ice_nine"]
-	path = pkgs/ruby-ice_nine
-	url = https://aur.archlinux.org/ruby-ice_nine.git
 [submodule "pkgs/ruby-oedipus_lex"]
 	path = pkgs/ruby-oedipus_lex
 	url = https://aur.archlinux.org/ruby-oedipus_lex.git
 [submodule "pkgs/ruby-oj"]
 	path = pkgs/ruby-oj
 	url = https://aur.archlinux.org/ruby-oj.git
-[submodule "pkgs/ruby-parallel"]
-	path = pkgs/ruby-parallel
-	url = https://aur.archlinux.org/ruby-parallel.git
 [submodule "pkgs/ruby-parser"]
 	path = pkgs/ruby-parser
 	url = https://aur.archlinux.org/ruby-parser.git
@@ -88,9 +76,6 @@
 [submodule "pkgs/ruby-pry"]
 	path = pkgs/ruby-pry
 	url = https://aur.archlinux.org/ruby-pry.git
-[submodule "pkgs/ruby-racc"]
-	path = pkgs/ruby-racc
-	url = https://aur.archlinux.org/ruby-racc.git
 [submodule "pkgs/ruby-regexp_parser"]
 	path = pkgs/ruby-regexp_parser
 	url = https://aur.archlinux.org/ruby-regexp_parser.git
@@ -118,9 +103,6 @@
 [submodule "pkgs/ruby-ruby-progressbar"]
 	path = pkgs/ruby-ruby-progressbar
 	url = https://aur.archlinux.org/ruby-ruby-progressbar.git
-[submodule "pkgs/ruby-rubygems-tasks"]
-	path = pkgs/ruby-rubygems-tasks
-	url = https://aur.archlinux.org/ruby-rubygems-tasks.git
 [submodule "pkgs/ruby-test-queue"]
 	path = pkgs/ruby-test-queue
 	url = https://aur.archlinux.org/ruby-test-queue.git
@@ -211,9 +193,6 @@
 [submodule "pkgs/cargo-about"]
 	path = pkgs/cargo-about
 	url = https://aur.archlinux.org/cargo-about.git
-[submodule "pkgs/ruby-http-form_data"]
-	path = pkgs/ruby-http-form_data
-	url = https://aur.archlinux.org/ruby-http-form_data.git
 [submodule "pkgs/rpi-imager"]
 	path = pkgs/rpi-imager
 	url = https://aur.archlinux.org/rpi-imager.git
