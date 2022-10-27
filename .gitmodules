@@ -7,9 +7,6 @@
 [submodule "pkgs/ruby-ansi"]
 	path = pkgs/ruby-ansi
 	url = https://aur.archlinux.org/ruby-ansi.git
-[submodule "pkgs/ruby-ast"]
-	path = pkgs/ruby-ast
-	url = https://aur.archlinux.org/ruby-ast.git
 [submodule "pkgs/ruby-mysql2"]
 	path = pkgs/ruby-mysql2
 	url = https://aur.archlinux.org/ruby-mysql2.git
@@ -46,15 +43,9 @@
 [submodule "pkgs/redli"]
 	path = pkgs/redli
 	url = https://aur.archlinux.org/redli.git
-[submodule "pkgs/ruby-bump"]
-	path = pkgs/ruby-bump
-	url = https://aur.archlinux.org/ruby-bump.git
 [submodule "pkgs/ruby-cliver"]
 	path = pkgs/ruby-cliver
 	url = https://aur.archlinux.org/ruby-cliver.git
-[submodule "pkgs/ruby-coderay"]
-	path = pkgs/ruby-coderay
-	url = https://aur.archlinux.org/ruby-coderay.git
 [submodule "pkgs/ruby-digest-crc"]
 	path = pkgs/ruby-digest-crc
 	url = https://aur.archlinux.org/ruby-digest-crc.git
@@ -73,15 +64,6 @@
 [submodule "pkgs/ruby-powerpack"]
 	path = pkgs/ruby-powerpack
 	url = https://aur.archlinux.org/ruby-powerpack.git
-[submodule "pkgs/ruby-pry"]
-	path = pkgs/ruby-pry
-	url = https://aur.archlinux.org/ruby-pry.git
-[submodule "pkgs/ruby-regexp_parser"]
-	path = pkgs/ruby-regexp_parser
-	url = https://aur.archlinux.org/ruby-regexp_parser.git
-[submodule "pkgs/ruby-regexp_property_values"]
-	path = pkgs/ruby-regexp_property_values
-	url = https://aur.archlinux.org/ruby-regexp_property_values.git
 [submodule "pkgs/ruby-rspectacular"]
 	path = pkgs/ruby-rspectacular
 	url = https://aur.archlinux.org/ruby-rspectacular.git
@@ -166,9 +148,6 @@
 [submodule "pkgs/google-cloud-sdk"]
 	path = pkgs/google-cloud-sdk
 	url = https://aur.archlinux.org/google-cloud-sdk.git
-[submodule "pkgs/ruby-bacon"]
-	path = pkgs/ruby-bacon
-	url = https://aur.archlinux.org/ruby-bacon.git
 [submodule "pkgs/sysz"]
 	path = pkgs/sysz
 	url = https://aur.archlinux.org/sysz.git
