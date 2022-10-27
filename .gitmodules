@@ -205,3 +205,6 @@
 [submodule "pkgs/goose"]
 	path = pkgs/goose
 	url = https://aur.archlinux.org/goose.git
+[submodule "pkgs/asciinema-agg"]
+	path = pkgs/asciinema-agg
+	url = https://aur.archlinux.org/asciinema-agg.git
