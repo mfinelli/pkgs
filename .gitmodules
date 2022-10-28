@@ -88,9 +88,6 @@
 [submodule "pkgs/ruby-test-queue"]
 	path = pkgs/ruby-test-queue
 	url = https://aur.archlinux.org/ruby-test-queue.git
-[submodule "pkgs/ruby-timecop"]
-	path = pkgs/ruby-timecop
-	url = https://aur.archlinux.org/ruby-timecop.git
 [submodule "pkgs/xfce-theme-manager"]
 	path = pkgs/xfce-theme-manager
 	url = https://aur.archlinux.org/xfce-theme-manager.git
