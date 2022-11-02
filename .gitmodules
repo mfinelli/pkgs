@@ -4,9 +4,6 @@
 [submodule "pkgs/ruby-activerecord"]
 	path = pkgs/ruby-activerecord
 	url = https://aur.archlinux.org/ruby-activerecord.git
-[submodule "pkgs/ruby-ansi"]
-	path = pkgs/ruby-ansi
-	url = https://aur.archlinux.org/ruby-ansi.git
 [submodule "pkgs/ruby-mysql2"]
 	path = pkgs/ruby-mysql2
 	url = https://aur.archlinux.org/ruby-mysql2.git
@@ -82,9 +79,6 @@
 [submodule "pkgs/ruby-rubocop-rake"]
 	path = pkgs/ruby-rubocop-rake
 	url = https://aur.archlinux.org/ruby-rubocop-rake.git
-[submodule "pkgs/ruby-ruby-progressbar"]
-	path = pkgs/ruby-ruby-progressbar
-	url = https://aur.archlinux.org/ruby-ruby-progressbar.git
 [submodule "pkgs/ruby-test-queue"]
 	path = pkgs/ruby-test-queue
 	url = https://aur.archlinux.org/ruby-test-queue.git
@@ -124,15 +118,6 @@
 [submodule "pkgs/ruby-rspec-pending_for"]
 	path = pkgs/ruby-rspec-pending_for
 	url = https://aur.archlinux.org/ruby-rspec-pending_for.git
-[submodule "pkgs/ruby-slim"]
-	path = pkgs/ruby-slim
-	url = https://aur.archlinux.org/ruby-slim.git
-[submodule "pkgs/ruby-haml"]
-	path = pkgs/ruby-haml
-	url = https://aur.archlinux.org/ruby-haml.git
-[submodule "pkgs/ruby-temple"]
-	path = pkgs/ruby-temple
-	url = https://aur.archlinux.org/ruby-temple.git
 [submodule "pkgs/ruby-erubis"]
 	path = pkgs/ruby-erubis
 	url = https://aur.archlinux.org/ruby-erubis.git
