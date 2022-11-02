@@ -190,3 +190,6 @@
 [submodule "pkgs/asciinema-agg"]
 	path = pkgs/asciinema-agg
 	url = https://aur.archlinux.org/asciinema-agg.git
+[submodule "pkgs/cui"]
+	path = pkgs/cui
+	url = https://aur.archlinux.org/cui.git
