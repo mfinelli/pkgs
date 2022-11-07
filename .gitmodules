@@ -7,9 +7,6 @@
 [submodule "pkgs/ruby-mysql2"]
 	path = pkgs/ruby-mysql2
 	url = https://aur.archlinux.org/ruby-mysql2.git
-[submodule "pkgs/ruby-rubocop-rspec"]
-	path = pkgs/ruby-rubocop-rspec
-	url = https://aur.archlinux.org/ruby-rubocop-rspec.git
 [submodule "pkgs/adminer"]
 	path = pkgs/adminer
 	url = https://aur.archlinux.org/adminer.git
@@ -46,51 +43,24 @@
 [submodule "pkgs/ruby-digest-crc"]
 	path = pkgs/ruby-digest-crc
 	url = https://aur.archlinux.org/ruby-digest-crc.git
-[submodule "pkgs/ruby-fuubar"]
-	path = pkgs/ruby-fuubar
-	url = https://aur.archlinux.org/ruby-fuubar.git
-[submodule "pkgs/ruby-oedipus_lex"]
-	path = pkgs/ruby-oedipus_lex
-	url = https://aur.archlinux.org/ruby-oedipus_lex.git
 [submodule "pkgs/ruby-oj"]
 	path = pkgs/ruby-oj
 	url = https://aur.archlinux.org/ruby-oj.git
-[submodule "pkgs/ruby-parser"]
-	path = pkgs/ruby-parser
-	url = https://aur.archlinux.org/ruby-parser.git
 [submodule "pkgs/ruby-powerpack"]
 	path = pkgs/ruby-powerpack
 	url = https://aur.archlinux.org/ruby-powerpack.git
 [submodule "pkgs/ruby-rspectacular"]
 	path = pkgs/ruby-rspectacular
 	url = https://aur.archlinux.org/ruby-rspectacular.git
-[submodule "pkgs/ruby-rubocop"]
-	path = pkgs/ruby-rubocop
-	url = https://aur.archlinux.org/ruby-rubocop.git
-[submodule "pkgs/ruby-rubocop-ast"]
-	path = pkgs/ruby-rubocop-ast
-	url = https://aur.archlinux.org/ruby-rubocop-ast.git
-[submodule "pkgs/ruby-rubocop-performance"]
-	path = pkgs/ruby-rubocop-performance
-	url = https://aur.archlinux.org/ruby-rubocop-performance.git
 [submodule "pkgs/ruby-rubocop-rails"]
 	path = pkgs/ruby-rubocop-rails
 	url = https://aur.archlinux.org/ruby-rubocop-rails.git
-[submodule "pkgs/ruby-rubocop-rake"]
-	path = pkgs/ruby-rubocop-rake
-	url = https://aur.archlinux.org/ruby-rubocop-rake.git
-[submodule "pkgs/ruby-test-queue"]
-	path = pkgs/ruby-test-queue
-	url = https://aur.archlinux.org/ruby-test-queue.git
 [submodule "pkgs/xfce-theme-manager"]
 	path = pkgs/xfce-theme-manager
 	url = https://aur.archlinux.org/xfce-theme-manager.git
 [submodule "pkgs/ansible-aur"]
 	path = pkgs/ansible-aur
 	url = https://aur.archlinux.org/ansible-aur.git
-[submodule "pkgs/go-yq"]
-	path = pkgs/go-yq
-	url = https://aur.archlinux.org/go-yq.git
 [submodule "pkgs/ansible-gpg-key-git"]
 	path = pkgs/ansible-gpg-key-git
 	url = https://aur.archlinux.org/ansible-gpg-key-git.git
