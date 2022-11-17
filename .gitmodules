@@ -163,3 +163,6 @@
 [submodule "pkgs/cui"]
 	path = pkgs/cui
 	url = https://aur.archlinux.org/cui.git
+[submodule "pkgs/dracut-hook-uefi"]
+	path = pkgs/dracut-hook-uefi
+	url = https://aur.archlinux.org/dracut-hook-uefi.git
