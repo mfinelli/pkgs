@@ -14,6 +14,7 @@ for package in $(ls); do
   echo "checking: $package"
   cd "$package"
   git clean -fqdx
+  git checkout .
   git fetch
   git pull
   cd ../
