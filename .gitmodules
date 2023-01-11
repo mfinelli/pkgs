@@ -169,3 +169,6 @@
 [submodule "pkgs/plymouth-git"]
 	path = pkgs/plymouth-git
 	url = https://aur.archlinux.org/plymouth-git.git
+[submodule "pkgs/yj"]
+	path = pkgs/yj
+	url = https://aur.archlinux.org/yj.git
