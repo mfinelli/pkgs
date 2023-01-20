@@ -139,9 +139,6 @@
 [submodule "pkgs/ttf-meslo-nerd-font-powerlevel10k"]
 	path = pkgs/ttf-meslo-nerd-font-powerlevel10k
 	url = https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git
-[submodule "pkgs/nerd-fonts-jetbrains-mono"]
-	path = pkgs/nerd-fonts-jetbrains-mono
-	url = https://aur.archlinux.org/nerd-fonts-jetbrains-mono.git
 [submodule "pkgs/asdf-vm"]
 	path = pkgs/asdf-vm
 	url = https://aur.archlinux.org/asdf-vm.git
