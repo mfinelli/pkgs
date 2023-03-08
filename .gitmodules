@@ -166,3 +166,24 @@
 [submodule "pkgs/yj"]
 	path = pkgs/yj
 	url = https://aur.archlinux.org/yj.git
+[submodule "pkgs/ruby-abstract_type"]
+	path = pkgs/ruby-abstract_type
+	url = https://aur.archlinux.org/ruby-abstract_type.git
+[submodule "pkgs/ruby-equalizer"]
+	path = pkgs/ruby-equalizer
+	url = https://aur.archlinux.org/ruby-equalizer.git
+[submodule "pkgs/ruby-thread_safe"]
+	path = pkgs/ruby-thread_safe
+	url = https://aur.archlinux.org/ruby-thread_safe.git
+[submodule "pkgs/ruby-memoizable"]
+	path = pkgs/ruby-memoizable
+	url = https://aur.archlinux.org/ruby-memoizable.git
+[submodule "pkgs/ruby-adamantium"]
+	path = pkgs/ruby-adamantium
+	url = https://aur.archlinux.org/ruby-adamantium.git
+[submodule "pkgs/ruby-concord"]
+	path = pkgs/ruby-concord
+	url = https://aur.archlinux.org/ruby-concord.git
+[submodule "pkgs/ruby-yardstick"]
+	path = pkgs/ruby-yardstick
+	url = https://aur.archlinux.org/ruby-yardstick.git
