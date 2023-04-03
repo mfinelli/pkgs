@@ -160,9 +160,6 @@
 [submodule "pkgs/dracut-hook-uefi"]
 	path = pkgs/dracut-hook-uefi
 	url = https://aur.archlinux.org/dracut-hook-uefi.git
-[submodule "pkgs/plymouth-git"]
-	path = pkgs/plymouth-git
-	url = https://aur.archlinux.org/plymouth-git.git
 [submodule "pkgs/yj"]
 	path = pkgs/yj
 	url = https://aur.archlinux.org/yj.git
