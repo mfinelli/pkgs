@@ -97,9 +97,6 @@
 [submodule "pkgs/pkger"]
 	path = pkgs/pkger
 	url = https://aur.archlinux.org/pkger.git
-[submodule "pkgs/google-cloud-sdk"]
-	path = pkgs/google-cloud-sdk
-	url = https://aur.archlinux.org/google-cloud-sdk.git
 [submodule "pkgs/sysz"]
 	path = pkgs/sysz
 	url = https://aur.archlinux.org/sysz.git
@@ -199,3 +196,6 @@
 [submodule "pkgs/gnome-shell-extension-dash-to-dock"]
 	path = pkgs/gnome-shell-extension-dash-to-dock
 	url = https://aur.archlinux.org/gnome-shell-extension-dash-to-dock.git
+[submodule "pkgs/google-cloud-cli"]
+	path = pkgs/google-cloud-cli
+	url = https://aur.archlinux.org/google-cloud-cli.git
