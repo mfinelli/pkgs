@@ -187,9 +187,6 @@
 [submodule "pkgs/nodejs-lhci-cli"]
 	path = pkgs/nodejs-lhci-cli
 	url = https://aur.archlinux.org/nodejs-lhci-cli.git
-[submodule "pkgs/gnome-shell-extension-arc-menu"]
-	path = pkgs/gnome-shell-extension-arc-menu
-	url = https://aur.archlinux.org/gnome-shell-extension-arc-menu.git
 [submodule "pkgs/gnome-shell-extension-arch-update"]
 	path = pkgs/gnome-shell-extension-arch-update
 	url = https://aur.archlinux.org/gnome-shell-extension-arch-update.git
