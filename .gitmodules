@@ -196,3 +196,6 @@
 [submodule "pkgs/google-cloud-cli"]
 	path = pkgs/google-cloud-cli
 	url = https://aur.archlinux.org/google-cloud-cli.git
+[submodule "pkgs/terraform-docs"]
+	path = pkgs/terraform-docs
+	url = https://aur.archlinux.org/terraform-docs.git
