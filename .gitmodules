@@ -199,3 +199,6 @@
 [submodule "pkgs/terraform-docs"]
 	path = pkgs/terraform-docs
 	url = https://aur.archlinux.org/terraform-docs.git
+[submodule "pkgs/networkmanager-fortisslvpn"]
+	path = pkgs/networkmanager-fortisslvpn
+	url = https://aur.archlinux.org/networkmanager-fortisslvpn.git
