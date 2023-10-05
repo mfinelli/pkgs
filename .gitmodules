@@ -121,9 +121,6 @@
 [submodule "pkgs/rpi-imager"]
 	path = pkgs/rpi-imager
 	url = https://aur.archlinux.org/rpi-imager.git
-[submodule "pkgs/tor-browser"]
-	path = pkgs/tor-browser
-	url = https://aur.archlinux.org/tor-browser.git
 [submodule "pkgs/gitstatus"]
 	path = pkgs/gitstatus
 	url = https://aur.archlinux.org/gitstatus.git
@@ -202,3 +199,6 @@
 [submodule "pkgs/networkmanager-fortisslvpn"]
 	path = pkgs/networkmanager-fortisslvpn
 	url = https://aur.archlinux.org/networkmanager-fortisslvpn.git
+[submodule "pkgs/tor-browser-bin"]
+	path = pkgs/tor-browser-bin
+	url = https://aur.archlinux.org/tor-browser-bin.git
