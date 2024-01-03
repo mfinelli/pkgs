@@ -202,3 +202,6 @@
 [submodule "pkgs/tor-browser-bin"]
 	path = pkgs/tor-browser-bin
 	url = https://aur.archlinux.org/tor-browser-bin.git
+[submodule "pkgs/osc"]
+	path = pkgs/osc
+	url = https://aur.archlinux.org/osc.git
