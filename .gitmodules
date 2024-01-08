@@ -205,3 +205,6 @@
 [submodule "pkgs/osc"]
 	path = pkgs/osc
 	url = https://aur.archlinux.org/osc.git
+[submodule "pkgs/iprange"]
+	path = pkgs/iprange
+	url = https://aur.archlinux.org/iprange.git
