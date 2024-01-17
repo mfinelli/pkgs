@@ -214,3 +214,15 @@
 [submodule "pkgs/systemd-boot-pacman-hook"]
 	path = pkgs/systemd-boot-pacman-hook
 	url = https://aur.archlinux.org/systemd-boot-pacman-hook.git
+[submodule "pkgs/gnome-shell-extension-pano"]
+	path = pkgs/gnome-shell-extension-pano
+	url = https://aur.archlinux.org/gnome-shell-extension-pano.git
+[submodule "pkgs/gnome-shell-extension-no-overview"]
+	path = pkgs/gnome-shell-extension-no-overview
+	url = https://aur.archlinux.org/gnome-shell-extension-no-overview.git
+[submodule "pkgs/gnome-shell-extension-espresso"]
+	path = pkgs/gnome-shell-extension-espresso
+	url = https://aur.archlinux.org/gnome-shell-extension-espresso.git
+[submodule "pkgs/gnome-shell-extension-systemd-manager"]
+	path = pkgs/gnome-shell-extension-systemd-manager
+	url = https://aur.archlinux.org/gnome-shell-extension-systemd-manager.git
