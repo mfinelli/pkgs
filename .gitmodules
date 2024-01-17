@@ -211,3 +211,6 @@
 [submodule "pkgs/gnome-shell-extension-nightthemeswitcher"]
 	path = pkgs/gnome-shell-extension-nightthemeswitcher
 	url = https://aur.archlinux.org/gnome-shell-extension-nightthemeswitcher.git
+[submodule "pkgs/systemd-boot-pacman-hook"]
+	path = pkgs/systemd-boot-pacman-hook
+	url = https://aur.archlinux.org/systemd-boot-pacman-hook.git
