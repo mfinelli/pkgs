@@ -235,3 +235,21 @@
 [submodule "pkgs/python-google-cloud-core"]
 	path = pkgs/python-google-cloud-core
 	url = https://aur.archlinux.org/python-google-cloud-core.git
+[submodule "pkgs/python-google-cloud-storage"]
+	path = pkgs/python-google-cloud-storage
+	url = https://aur.archlinux.org/python-google-cloud-storage.git
+[submodule "pkgs/python-google-resumable-media"]
+	path = pkgs/python-google-resumable-media
+	url = https://aur.archlinux.org/python-google-resumable-media.git
+[submodule "pkgs/python-google-crc32c"]
+	path = pkgs/python-google-crc32c
+	url = https://aur.archlinux.org/python-google-crc32c.git
+[submodule "pkgs/google-crc32c"]
+	path = pkgs/google-crc32c
+	url = https://aur.archlinux.org/google-crc32c.git
+[submodule "pkgs/python-google-cloud-compute"]
+	path = pkgs/python-google-cloud-compute
+	url = https://aur.archlinux.org/python-google-cloud-compute.git
+[submodule "pkgs/python-proto-plus"]
+	path = pkgs/python-proto-plus
+	url = https://aur.archlinux.org/python-proto-plus.git
