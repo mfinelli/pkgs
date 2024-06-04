@@ -226,3 +226,12 @@
 [submodule "pkgs/gnome-shell-extension-systemd-manager"]
 	path = pkgs/gnome-shell-extension-systemd-manager
 	url = https://aur.archlinux.org/gnome-shell-extension-systemd-manager.git
+[submodule "pkgs/python-mock"]
+	path = pkgs/python-mock
+	url = https://aur.archlinux.org/python-mock.git
+[submodule "pkgs/python-hcl2"]
+	path = pkgs/python-hcl2
+	url = https://aur.archlinux.org/python-hcl2.git
+[submodule "pkgs/python-google-cloud-core"]
+	path = pkgs/python-google-cloud-core
+	url = https://aur.archlinux.org/python-google-cloud-core.git
