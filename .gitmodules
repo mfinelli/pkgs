@@ -253,3 +253,6 @@
 [submodule "pkgs/python-proto-plus"]
 	path = pkgs/python-proto-plus
 	url = https://aur.archlinux.org/python-proto-plus.git
+[submodule "pkgs/gnome-shell-extension-randomwallpaper"]
+	path = pkgs/gnome-shell-extension-randomwallpaper
+	url = https://aur.archlinux.org/gnome-shell-extension-randomwallpaper.git
