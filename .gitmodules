@@ -256,3 +256,6 @@
 [submodule "pkgs/gnome-shell-extension-randomwallpaper"]
 	path = pkgs/gnome-shell-extension-randomwallpaper
 	url = https://aur.archlinux.org/gnome-shell-extension-randomwallpaper.git
+[submodule "pkgs/headsetcontrol"]
+	path = pkgs/headsetcontrol
+	url = https://aur.archlinux.org/headsetcontrol.git
