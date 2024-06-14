@@ -259,3 +259,6 @@
 [submodule "pkgs/headsetcontrol"]
 	path = pkgs/headsetcontrol
 	url = https://aur.archlinux.org/headsetcontrol.git
+[submodule "pkgs/dnglab"]
+	path = pkgs/dnglab
+	url = https://aur.archlinux.org/dnglab.git
