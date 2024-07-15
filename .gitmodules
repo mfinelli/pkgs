@@ -265,3 +265,6 @@
 [submodule "pkgs/gnome-shell-extension-blur-my-shell"]
 	path = pkgs/gnome-shell-extension-blur-my-shell
 	url = https://aur.archlinux.org/gnome-shell-extension-blur-my-shell.git
+[submodule "pkgs/gnome-shell-extension-openweatherrefined"]
+	path = pkgs/gnome-shell-extension-openweatherrefined
+	url = https://aur.archlinux.org/gnome-shell-extension-openweatherrefined.git
