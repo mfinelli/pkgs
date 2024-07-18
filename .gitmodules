@@ -268,3 +268,6 @@
 [submodule "pkgs/gnome-shell-extension-openweatherrefined"]
 	path = pkgs/gnome-shell-extension-openweatherrefined
 	url = https://aur.archlinux.org/gnome-shell-extension-openweatherrefined.git
+[submodule "pkgs/gnome-shell-extension-emoji-copy"]
+	path = pkgs/gnome-shell-extension-emoji-copy
+	url = https://aur.archlinux.org/gnome-shell-extension-emoji-copy.git
