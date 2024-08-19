@@ -271,3 +271,6 @@
 [submodule "pkgs/gnome-shell-extension-emoji-copy"]
 	path = pkgs/gnome-shell-extension-emoji-copy
 	url = https://aur.archlinux.org/gnome-shell-extension-emoji-copy.git
+[submodule "pkgs/dasel"]
+	path = pkgs/dasel
+	url = https://aur.archlinux.org/dasel.git
