@@ -277,3 +277,6 @@
 [submodule "pkgs/lazydocker"]
 	path = pkgs/lazydocker
 	url = https://aur.archlinux.org/lazydocker.git
+[submodule "pkgs/zsh-theme-powerlevel10k"]
+	path = pkgs/zsh-theme-powerlevel10k
+	url = https://aur.archlinux.org/zsh-theme-powerlevel10k.git
