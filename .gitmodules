@@ -175,9 +175,6 @@
 [submodule "pkgs/apachedirectorystudio"]
 	path = pkgs/apachedirectorystudio
 	url = https://aur.archlinux.org/apachedirectorystudio.git
-[submodule "pkgs/nodejs-lhci-cli"]
-	path = pkgs/nodejs-lhci-cli
-	url = https://aur.archlinux.org/nodejs-lhci-cli.git
 [submodule "pkgs/gnome-shell-extension-arch-update"]
 	path = pkgs/gnome-shell-extension-arch-update
 	url = https://aur.archlinux.org/gnome-shell-extension-arch-update.git
