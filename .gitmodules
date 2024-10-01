@@ -118,9 +118,6 @@
 [submodule "pkgs/helm-s3"]
 	path = pkgs/helm-s3
 	url = https://aur.archlinux.org/helm-s3.git
-[submodule "pkgs/rpi-imager"]
-	path = pkgs/rpi-imager
-	url = https://aur.archlinux.org/rpi-imager.git
 [submodule "pkgs/gitstatus"]
 	path = pkgs/gitstatus
 	url = https://aur.archlinux.org/gitstatus.git
