@@ -16,8 +16,8 @@ fi
 SERVER=rome.mfpkg.net
 FPATH=/srv/pkgs.finelli.dev/arch/x86_64
 
-if ssh ${SERVER} "stat $FPATH/supermario.db" > /dev/null 2>&1; then
-  rsync -lrvtP "${SERVER}:${FPATH}/supermario.db*" \
+if ssh -4 ${SERVER} "stat $FPATH/supermario.db" > /dev/null 2>&1; then
+  rsync -4 -lrvtP "${SERVER}:${FPATH}/supermario.db*" \
     "${SERVER}:${FPATH}/supermario.files*" .
   VERIFY=--verify
 else
@@ -29,6 +29,6 @@ gpg -u 36FDA306 -b "$1"
 
 repo-add ${VERIFY} --key 36FDA306 --sign supermario.db.tar.gz "$1"
 
-rsync -lrvtP supermario.db* supermario.files* ./${1}{,.sig} ${SERVER}:${FPATH}
+rsync -4 -lrvtP supermario.db* supermario.files* ./${1}{,.sig} ${SERVER}:${FPATH}
 
 exit 0
