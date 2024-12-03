@@ -271,3 +271,6 @@
 [submodule "pkgs/zsh-theme-powerlevel10k"]
 	path = pkgs/zsh-theme-powerlevel10k
 	url = https://aur.archlinux.org/zsh-theme-powerlevel10k.git
+[submodule "pkgs/wgo"]
+	path = pkgs/wgo
+	url = https://aur.archlinux.org/wgo.git
