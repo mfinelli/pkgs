@@ -274,3 +274,6 @@
 [submodule "pkgs/wgo"]
 	path = pkgs/wgo
 	url = https://aur.archlinux.org/wgo.git
+[submodule "pkgs/templ"]
+	path = pkgs/templ
+	url = https://aur.archlinux.org/templ.git
