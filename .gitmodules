@@ -277,3 +277,6 @@
 [submodule "pkgs/templ"]
 	path = pkgs/templ
 	url = https://aur.archlinux.org/templ.git
+[submodule "pkgs/mise"]
+	path = pkgs/mise
+	url = https://aur.archlinux.org/mise.git
