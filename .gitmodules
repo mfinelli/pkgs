@@ -277,3 +277,6 @@
 [submodule "pkgs/mise"]
 	path = pkgs/mise
 	url = https://aur.archlinux.org/mise.git
+[submodule "pkgs/python-onepasswordconnectsdk"]
+	path = pkgs/python-onepasswordconnectsdk
+	url = https://aur.archlinux.org/python-onepasswordconnectsdk.git
