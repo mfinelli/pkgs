@@ -280,3 +280,6 @@
 [submodule "pkgs/python-onepasswordconnectsdk"]
 	path = pkgs/python-onepasswordconnectsdk
 	url = https://aur.archlinux.org/python-onepasswordconnectsdk.git
+[submodule "pkgs/ruby-rspec-block_is_expected"]
+	path = pkgs/ruby-rspec-block_is_expected
+	url = https://aur.archlinux.org/ruby-rspec-block_is_expected.git
