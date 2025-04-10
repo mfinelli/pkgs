@@ -286,3 +286,6 @@
 [submodule "pkgs/ckb-next"]
 	path = pkgs/ckb-next
 	url = https://aur.archlinux.org/ckb-next.git
+[submodule "pkgs/dockerfmt"]
+	path = pkgs/dockerfmt
+	url = https://aur.archlinux.org/dockerfmt.git
