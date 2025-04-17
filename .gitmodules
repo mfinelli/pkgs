@@ -289,3 +289,9 @@
 [submodule "pkgs/dockerfmt"]
 	path = pkgs/dockerfmt
 	url = https://aur.archlinux.org/dockerfmt.git
+[submodule "pkgs/mdq"]
+	path = pkgs/mdq
+	url = https://aur.archlinux.org/mdq.git
+[submodule "pkgs/ttf-iosevka"]
+	path = pkgs/ttf-iosevka
+	url = https://aur.archlinux.org/ttf-iosevka.git
