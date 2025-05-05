@@ -295,3 +295,6 @@
 [submodule "pkgs/ttf-iosevka"]
 	path = pkgs/ttf-iosevka
 	url = https://aur.archlinux.org/ttf-iosevka.git
+[submodule "pkgs/cloud-sql-proxy"]
+	path = pkgs/cloud-sql-proxy
+	url = https://aur.archlinux.org/cloud-sql-proxy.git
