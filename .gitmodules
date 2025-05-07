@@ -298,3 +298,6 @@
 [submodule "pkgs/cloud-sql-proxy"]
 	path = pkgs/cloud-sql-proxy
 	url = https://aur.archlinux.org/cloud-sql-proxy.git
+[submodule "pkgs/plymouth-theme-arch-logo-symbol"]
+	path = pkgs/plymouth-theme-arch-logo-symbol
+	url = https://aur.archlinux.org/plymouth-theme-arch-logo-symbol.git
