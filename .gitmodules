@@ -58,15 +58,9 @@
 [submodule "pkgs/xfce-theme-manager"]
 	path = pkgs/xfce-theme-manager
 	url = https://aur.archlinux.org/xfce-theme-manager.git
-[submodule "pkgs/ansible-aur"]
-	path = pkgs/ansible-aur
-	url = https://aur.archlinux.org/ansible-aur.git
 [submodule "pkgs/ansible-gpg-key-git"]
 	path = pkgs/ansible-gpg-key-git
 	url = https://aur.archlinux.org/ansible-gpg-key-git.git
-[submodule "pkgs/ansible-gsetting-git"]
-	path = pkgs/ansible-gsetting-git
-	url = https://aur.archlinux.org/ansible-gsetting-git.git
 [submodule "pkgs/nodejs-n"]
 	path = pkgs/nodejs-n
 	url = https://aur.archlinux.org/nodejs-n.git
@@ -124,9 +118,6 @@
 [submodule "pkgs/ttf-meslo-nerd-font-powerlevel10k"]
 	path = pkgs/ttf-meslo-nerd-font-powerlevel10k
 	url = https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k.git
-[submodule "pkgs/asdf-vm"]
-	path = pkgs/asdf-vm
-	url = https://aur.archlinux.org/asdf-vm.git
 [submodule "pkgs/cobra-cli"]
 	path = pkgs/cobra-cli
 	url = https://aur.archlinux.org/cobra-cli.git
@@ -142,9 +133,6 @@
 [submodule "pkgs/cui"]
 	path = pkgs/cui
 	url = https://aur.archlinux.org/cui.git
-[submodule "pkgs/dracut-hook-uefi"]
-	path = pkgs/dracut-hook-uefi
-	url = https://aur.archlinux.org/dracut-hook-uefi.git
 [submodule "pkgs/yj"]
 	path = pkgs/yj
 	url = https://aur.archlinux.org/yj.git
