@@ -274,9 +274,6 @@
 [submodule "pkgs/templ"]
 	path = pkgs/templ
 	url = https://aur.archlinux.org/templ.git
-[submodule "pkgs/mise"]
-	path = pkgs/mise
-	url = https://aur.archlinux.org/mise.git
 [submodule "pkgs/python-onepasswordconnectsdk"]
 	path = pkgs/python-onepasswordconnectsdk
 	url = https://aur.archlinux.org/python-onepasswordconnectsdk.git
