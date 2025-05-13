@@ -286,3 +286,6 @@
 [submodule "pkgs/plymouth-theme-arch-logo-symbol"]
 	path = pkgs/plymouth-theme-arch-logo-symbol
 	url = https://aur.archlinux.org/plymouth-theme-arch-logo-symbol.git
+[submodule "pkgs/xdg-ninja-git"]
+	path = pkgs/xdg-ninja-git
+	url = https://aur.archlinux.org/xdg-ninja-git.git
