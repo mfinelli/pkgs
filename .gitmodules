@@ -289,3 +289,6 @@
 [submodule "pkgs/xdg-ninja-git"]
 	path = pkgs/xdg-ninja-git
 	url = https://aur.archlinux.org/xdg-ninja-git.git
+[submodule "pkgs/ruby-process_executer"]
+	path = pkgs/ruby-process_executer
+	url = https://aur.archlinux.org/ruby-process_executer.git
