@@ -292,3 +292,6 @@
 [submodule "pkgs/ruby-process_executer"]
 	path = pkgs/ruby-process_executer
 	url = https://aur.archlinux.org/ruby-process_executer.git
+[submodule "pkgs/lstr"]
+	path = pkgs/lstr
+	url = https://aur.archlinux.org/lstr.git
