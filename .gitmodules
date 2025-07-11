@@ -295,3 +295,6 @@
 [submodule "pkgs/lstr"]
 	path = pkgs/lstr
 	url = https://aur.archlinux.org/lstr.git
+[submodule "pkgs/ruby-track_open_instances"]
+	path = pkgs/ruby-track_open_instances
+	url = https://aur.archlinux.org/ruby-track_open_instances.git
