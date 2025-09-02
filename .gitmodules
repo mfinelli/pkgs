@@ -301,3 +301,6 @@
 [submodule "pkgs/python-recommonmark"]
 	path = pkgs/python-recommonmark
 	url = https://aur.archlinux.org/python-recommonmark.git
+[submodule "pkgs/gnome-shell-extension-search-light-git"]
+	path = pkgs/gnome-shell-extension-search-light-git
+	url = https://aur.archlinux.org/gnome-shell-extension-search-light-git.git
