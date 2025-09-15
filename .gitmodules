@@ -304,3 +304,6 @@
 [submodule "pkgs/gnome-shell-extension-search-light-git"]
 	path = pkgs/gnome-shell-extension-search-light-git
 	url = https://aur.archlinux.org/gnome-shell-extension-search-light-git.git
+[submodule "pkgs/otf-unifont"]
+	path = pkgs/otf-unifont
+	url = https://aur.archlinux.org/otf-unifont.git
