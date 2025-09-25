@@ -307,3 +307,9 @@
 [submodule "pkgs/otf-unifont"]
 	path = pkgs/otf-unifont
 	url = https://aur.archlinux.org/otf-unifont.git
+[submodule "pkgs/go-critic"]
+	path = pkgs/go-critic
+	url = https://aur.archlinux.org/go-critic.git
+[submodule "pkgs/gnome-shell-extension-simpleweather"]
+	path = pkgs/gnome-shell-extension-simpleweather
+	url = https://aur.archlinux.org/gnome-shell-extension-simpleweather.git
