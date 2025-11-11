@@ -313,3 +313,9 @@
 [submodule "pkgs/gnome-shell-extension-simpleweather"]
 	path = pkgs/gnome-shell-extension-simpleweather
 	url = https://aur.archlinux.org/gnome-shell-extension-simpleweather.git
+[submodule "pkgs/python-zxing-cpp"]
+	path = pkgs/python-zxing-cpp
+	url = https://aur.archlinux.org/python-zxing-cpp.git
+[submodule "pkgs/yubico-authenticator"]
+	path = pkgs/yubico-authenticator
+	url = https://aur.archlinux.org/yubico-authenticator.git
