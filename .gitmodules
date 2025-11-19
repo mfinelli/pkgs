@@ -319,3 +319,9 @@
 [submodule "pkgs/yubico-authenticator"]
 	path = pkgs/yubico-authenticator
 	url = https://aur.archlinux.org/yubico-authenticator.git
+[submodule "pkgs/bun"]
+	path = pkgs/bun
+	url = https://aur.archlinux.org/bun.git
+[submodule "pkgs/gnome-shell-extension-veil"]
+	path = pkgs/gnome-shell-extension-veil
+	url = https://aur.archlinux.org/gnome-shell-extension-veil.git
