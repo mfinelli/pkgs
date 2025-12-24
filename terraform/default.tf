@@ -1,8 +1,8 @@
-data "vultr_os" "debian_bullseye" {
+data "vultr_os" "debian_trixie" {
   filter {
     name = "name"
     # curl -H 'Accept: application/json' https://api.vultr.com/v1/os/list
-    values = ["Debian 11 x64 (bullseye)"]
+    values = ["Debian 13 x64 (trixie)"]
   }
 }
 
@@ -19,18 +19,18 @@ resource "vultr_ssh_key" "mario" {
 }
 
 resource "vultr_instance" "rome" {
-  hostname            = "rome.mfpkg.net"
-  label               = "rome.mfpkg.net"
-  plan                = "vc2-1c-1gb"
-  region              = data.vultr_region.paris.id
-  os_id               = data.vultr_os.debian_bullseye.id
-  firewall_group_id   = vultr_firewall_group.firewall.id
-  ssh_key_ids         = [vultr_ssh_key.mario.id]
-  private_network_ids = []         # disable private network
-  backups             = "disabled" # :(
-  enable_ipv6         = true
-  activation_email    = true
-  ddos_protection     = false
+  hostname          = "rome.mfpkg.net"
+  label             = "rome.mfpkg.net"
+  plan              = "vc2-1c-1gb"
+  region            = data.vultr_region.paris.id
+  os_id             = data.vultr_os.debian_trixie.id
+  firewall_group_id = vultr_firewall_group.firewall.id
+  ssh_key_ids       = [vultr_ssh_key.mario.id]
+  vpc_ids           = []         # disable private network
+  backups           = "disabled" # :(
+  enable_ipv6       = true
+  activation_email  = true
+  ddos_protection   = false
 }
 
 resource "vultr_reverse_ipv4" "rome" {
