@@ -9,9 +9,8 @@ if [[ $# -ne 0 ]]; then
 fi
 
 if [[ -f terraform.tfstate.asc ]]; then
-  gpg -d terraform.tfstate.asc > terraform.tfstate
 
-  if [[ $? -ne 0 ]]; then
+  if ! gpg -d terraform.tfstate.asc > terraform.tfstate; then
     echo >&2 "error: unable to decrypt statefile"
     exit 1
   fi
@@ -22,9 +21,7 @@ tfret=$?
 
 # we always want to re-encrypt the statefile; terraform doesn't do rollbacks
 # so the state may have changed even though the apply failed
-gpg -ear 36FDA306 terraform.tfstate
-
-if [[ $? -ne 0 ]]; then
+if ! gpg -ear 36FDA306 terraform.tfstate; then
   echo "error: statefile encryption failed!"
   exit 25
 fi
