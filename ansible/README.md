@@ -3,10 +3,6 @@
 Configuration for the server backing https://pkgs.finelli.dev.
 
 ```shell
-ansible-galaxy install -r requirements.yml
-```
-
-```shell
 ansible-playbook -i hosts --vault-password-file ./vault site.yml
 ```
 
