@@ -1,37 +1,44 @@
 ---
-- name: ensure hostname is set to fqdn
-  ansible.builtin.hostname: name={{ ansible_fqdn }}
+- name: Ensure hostname is set to fqdn
+  ansible.builtin.hostname:
+    name: "{{ ansible_fqdn }}"
 
-- name: install rsync
-  ansible.builtin.apt: name=rsync
+- name: Install rsync
+  ansible.builtin.apt:
+    name: rsync
 
-- name: install software for dotfiles
+- name: Install software for dotfiles
   ansible.builtin.apt:
     name:
       - ansible
       - git
 
-- name: install other software
+- name: Install other software
   ansible.builtin.apt:
     name:
       - htop
       - screen
       - vim
 
-- name: create mario user
-  ansible.builtin.user: name=mario shell=/bin/bash
+- name: Create mario user
+  ansible.builtin.user:
+    name: mario
+    shell: /bin/bash
 
-- name: set ssh key for mario
+- name: Set ssh key for mario
   ansible.posix.authorized_key:
     exclusive: true
     user: mario
-    key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFk83S5KYE7ErNJW7JEJbTkwTz1WtcNrOCoZ9hMnwBQT mario
+    key: >-
+      ssh-ed25519
+      AAAAC3NzaC1lZDI1NTE5AAAAIFk83S5KYE7ErNJW7JEJbTkwTz1WtcNrOCoZ9hMnwBQT
+      mario
 
-- name: add mario to sudoers
+- name: Add mario to sudoers
   ansible.builtin.copy:
     dest: /etc/sudoers.d/mario
     group: root
-    mode: 0440
+    mode: "0440"
     owner: root
     src: sudoer
     validate: visudo -cf %s

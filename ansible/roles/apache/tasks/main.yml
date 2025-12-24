@@ -1,11 +1,11 @@
 ---
-- name: install apache
+- name: Install apache
   ansible.builtin.apt:
     name:
       - apache2
       - ssl-cert
 
-- name: enable apache mod_ssl
+- name: Enable apache mod_ssl
   ansible.builtin.file:
     dest: /etc/apache2/mods-enabled/{{ item }}
     src: /etc/apache2/mods-available/{{ item }}
@@ -16,76 +16,82 @@
     - socache_shmcb.load
     - headers.load
   notify:
-    - restart apache
+    - Restart apache
 
-- name: copy cloudflare origin certificate
+- name: Copy cloudflare origin certificate
   ansible.builtin.copy:
     dest: /etc/ssl/private/pkgs.finelli.dev.{{ item }}
     src: ssl.{{ item }}
     owner: root
     group: ssl-cert
-    mode: 0640
+    mode: "0640"
   loop:
     - key
     - pem
   notify:
-    - restart apache
+    - Restart apache
 
 # https://developers.cloudflare.com/ssl/origin-configuration/authenticated-origin-pull#zone-level--cloudflare-certificate
-- name: copy cloudflare origin pull certificate
+- name: Copy cloudflare origin pull certificate
   ansible.builtin.copy:
     dest: /etc/ssl/private/cloudflare.pem
     src: cloudflare.pem
     owner: root
     group: ssl-cert
-    mode: 0640
+    mode: "0640"
   notify:
-    - restart apache
+    - Restart apache
 
-- name: allow port 443 through the firewall
-  community.general.ufw: rule=allow port=443 proto=tcp
+- name: Allow port 443 through the firewall
+  community.general.ufw:
+    rule: allow
+    port: 443
+    proto: tcp
 
-- name: ensure pkgs.finelli.dev directory
+- name: Ensure pkgs.finelli.dev directory
   ansible.builtin.file:
     path: /srv/pkgs.finelli.dev
-    owner: mario # would probably better to use root and a dedicated group...
+    owner: mario  # would probably better to use root and a dedicated group...
     group: mario
-    mode: 0755 # ...and then 0775
+    mode: "0755"  # ...and then 0775
     state: directory
 
-- name: create package directory
+- name: Create package directory
   ansible.builtin.file:
     path: /srv/pkgs.finelli.dev/{{ item }}
     owner: mario
     group: mario
-    mode: 0755
+    mode: "0755"
     state: directory
   loop:
     - arch
     - arch/x86_64
 
-- name: copy virtual host config
+- name: Copy virtual host config
   ansible.builtin.copy:
     src: vhost.conf
     dest: /etc/apache2/sites-available/000-pkgsfinellidev.conf
     owner: root
     group: root
-    mode: 0644
+    mode: "0644"
   notify:
-    - restart apache
+    - Restart apache
 
-- name: remove default virtual host
+- name: Remove default virtual host
   ansible.builtin.file:
     path: /etc/apache2/sites-enabled/000-default.conf
     state: absent
   notify:
-    - restart apache
+    - Restart apache
 
-- name: link virtual host to enabled
+- name: Link virtual host to enabled
   ansible.builtin.file:
     src: /etc/apache2/sites-available/000-pkgsfinellidev.conf
     dest: /etc/apache2/sites-enabled/000-pkgsfinellidev.conf
     state: link
 
-- name: ensure apache is running and enabled
-  ansible.builtin.systemd: name=apache2.service state=started enabled=true
+- name: Ensure apache is running and enabled
+  ansible.builtin.systemd:
+    name: apache2.service
+    state: started
+    enabled: true

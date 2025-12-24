@@ -1,20 +1,30 @@
 ---
-- name: install sshd config
+- name: Install sshd config
   ansible.builtin.copy:
     dest: /etc/ssh/sshd_config
     src: sshd_config
     owner: root
     group: root
-    mode: 0644
+    mode: "0644"
     validate: /usr/sbin/sshd -tf %s
   notify:
-    - restart sshd
+    - Restart sshd
 
-- name: allow port 22 through the firewall
-  community.general.ufw: rule=allow port=22 proto=tcp
+- name: Allow port 22 through the firewall
+  community.general.ufw:
+    rule: allow
+    port: 22
+    proto: tcp
 
-- name: disallow udp on port 22 enabled by default
-  community.general.ufw: rule=allow port=22 proto=udp delete=true
+- name: Disallow udp on port 22 enabled by default
+  community.general.ufw:
+    rule: allow
+    port: 22
+    proto: udp
+    delete: true
 
-- name: ensure sshd is running and enabled
-  ansible.builtin.systemd: name=ssh.service state=started enabled=true
+- name: Ensure sshd is running and enabled
+  ansible.builtin.systemd:
+    name: ssh.service
+    state: started
+    enabled: true
