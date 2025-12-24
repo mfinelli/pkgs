@@ -16,7 +16,7 @@ if [[ -f terraform.tfstate.asc ]]; then
   fi
 fi
 
-terraform apply
+tofu apply
 tfret=$?
 
 # we always want to re-encrypt the statefile; terraform doesn't do rollbacks
