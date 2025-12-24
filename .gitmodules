@@ -325,3 +325,6 @@
 [submodule "pkgs/gnome-shell-extension-veil"]
 	path = pkgs/gnome-shell-extension-veil
 	url = https://aur.archlinux.org/gnome-shell-extension-veil.git
+[submodule "pkgs/go-snitch"]
+	path = pkgs/go-snitch
+	url = https://aur.archlinux.org/go-snitch.git
